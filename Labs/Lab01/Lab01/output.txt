@@ -1,0 +1,74 @@
+DFA based off two different languages:
+L1 = (a|b)*abb
+L2 = (a|b)*baa
+
+DFA Test for string #1: ababababaazzzzxxxxoisdiabb
+1-10 ababababaa is valid in our L2.
+2-10 babababaa is valid in our L2.
+3-10 abababaa is valid in our L2.
+4-10 bababaa is valid in our L2.
+5-10 ababaa is valid in our L2.
+6-10 babaa is valid in our L2.
+7-10 abaa is valid in our L2.
+8-10 baa is valid in our L2.
+
+24-26 abb is valid in our L1.
+
+ababababaazzzzxxxxoisdiabb is not in any language
+
+
+DFA Test for string #2: abbabayabbabaababaab
+1-3 abb is valid in our L1.
+
+1-10 abbabaabab is valid in our L1.
+2-10 bbabaabab is valid in our L1.
+3-10 babaabab is valid in our L1.
+4-10 abaabab is valid in our L1.
+5-10 baabab is valid in our L1.
+6-10 aabab is valid in our L1.
+7-10 abab is valid in our L1.
+8-10 bab is valid in our L1.
+
+2-14 abbabaababaab is valid in our L2.
+3-14 bbabaababaab is valid in our L2.
+4-14 babaababaab is valid in our L2.
+5-14 abaababaab is valid in our L2.
+6-14 baababaab is valid in our L2.
+7-14 aababaab is valid in our L2.
+8-14 ababaab is valid in our L2.
+9-14 babaab is valid in our L2.
+10-14 abaab is valid in our L2.
+11-14 baab is valid in our L2.
+12-14 aab is valid in our L2.
+
+7-19 abbabaababaab is valid in our L2.
+8-19 bbabaababaab is valid in our L2.
+9-19 babaababaab is valid in our L2.
+10-19 abaababaab is valid in our L2.
+11-19 baababaab is valid in our L2.
+12-19 aababaab is valid in our L2.
+13-19 ababaab is valid in our L2.
+14-19 babaab is valid in our L2.
+15-19 abaab is valid in our L2.
+16-19 baab is valid in our L2.
+17-19 aab is valid in our L2.
+
+abbabayabbabaababaab is not in any language
+
+
+DFA Test for string #3: abbbaa
+1-3 abb is valid in our L1.
+
+1-6 abbbaa is valid in our L2.
+2-6 bbbaa is valid in our L2.
+3-6 bbaa is valid in our L2.
+4-6 baa is valid in our L2.
+
+abbbaa is in L2
+
+
+End of tests!
+
+F:\Projects\CSE-570-Compilers\Labs\Lab01\x64\Debug\Lab01.exe (process 22732) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
