@@ -1,8 +1,16 @@
 //Name: Taylor Pedretti
 //Class: CSE-570
-//Lab: Lab01
-//Description: http://www.cse.csusb.edu/egomez/cs570/lab1.txt
-//TL:DR: Create a DFA translator from a given DFA within the book.
+//Lab: Lab 1
+/*Description: DFAs are specified by a set of states (among them one starting and one 
+or more accepting), and transitions between pairs of states which are 
+labeled by a symbol of some alphabet. DFAs are typically given in one 
+of two formats: 
+(1) a transition diagram (that is, a directed graph), and
+(2) a transition table. 
+Both representations are equivalant to each other.  
+
+As an example of a DFA, take a look in Purple dragon book on p. 151, Fig. 
+3.28, a transition diagram. The DFA algorithm is descrived in pages 148-151. */
 
 #include <iostream>
 #include <string>
